@@ -31,7 +31,7 @@ for r1 in ${input_dir}/*_R1_trimmed.fastq.gz; do
 
     # Run SPAdes with paired-end reads and advanced options
     spades.py --pe1-1 ${r1} --pe1-2 ${r2} \
-              --careful \
+              --isolate \
               --checkpoints all \
               -o ${output_dir}/${base}_spades \
               --threads 8
