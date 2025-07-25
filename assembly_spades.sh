@@ -33,7 +33,6 @@ for r1 in ${input_dir}/*_R1_trimmed.fastq.gz; do
     spades.py --pe1-1 ${r1} --pe1-2 ${r2} \
               --isolate \
               --careful \
-              --restart-from k55 \
               --checkpoints all \
               -o ${output_dir}/${base}_spades \
               --threads 8
