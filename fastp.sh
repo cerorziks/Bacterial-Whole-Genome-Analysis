@@ -1,8 +1,8 @@
 #!/bin/bash
 
 # Set input and output directories
-INPUT_DIR="/home/genomic/WGS/fastq"
-OUTPUT_DIR="/home/genomic/WGS/fastq/fastp_out"
+INPUT_DIR="/home/path/fastq"
+OUTPUT_DIR="/home/path/fastq/fastp_out"
 
 # Create output directory if it doesn't exist
 mkdir -p "$OUTPUT_DIR"
