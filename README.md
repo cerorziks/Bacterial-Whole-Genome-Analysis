@@ -34,28 +34,10 @@ Additional dependencies:
 - Java (for Trimmomatic)
 - Python 3 (for BUSCO)
 - Appropriate BUSCO lineage datasets downloaded (e.g., `bacteria_odb10`)
-
+  
 ---
 
----
-
-## Usage
-
-1. **Prepare your raw reads** in the `raw_reads/` directory, named as `<sample>_R1.fastq.gz` and `<sample>_R2.fastq.gz`.
-
-2. **Configure parameters** in the main script (`run_pipeline.sh`), including input/output directories and number of threads.
-
-3. **Run the pipeline**:
-
-    ```bash
-    bash scripts/run_pipeline.sh
-    ```
-
-4. Outputs will be organized by step in their respective directories (`qc_reports/`, `trimmed_reads/`, `assemblies/`, etc.).
-
----
-
-## Pipeline Steps Summary
+## Steps Summary
 
 ### 1. Quality Control with fastp
 
