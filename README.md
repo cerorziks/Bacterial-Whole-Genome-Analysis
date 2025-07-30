@@ -31,6 +31,8 @@ Make sure the following tools are installed and accessible in your `$PATH`:
 - [Shovill](https://github.com/tseemann/shovill)
 - [QUAST](http://quast.sourceforge.net/)
 - [BUSCO](https://busco.ezlab.org/)
+- [Prokka](https://github.com/tseemann/prokka)
+- [MLST](https://github.com/tseemann/mlst)
 
 Additional dependencies:
 - Java (for Trimmomatic)
