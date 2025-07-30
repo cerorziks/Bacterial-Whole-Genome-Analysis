@@ -28,7 +28,7 @@ Make sure the following tools are installed and accessible in your `$PATH`:
 - [fastp](https://github.com/OpenGene/fastp)
 - [Trimmomatic](http://www.usadellab.org/cms/?page=trimmomatic)
 - [SPAdes](http://cab.spbu.ru/software/spades/)
-- Shovill (https://github.com/tseemann/shovill)
+- [Shovill](https://github.com/tseemann/shovill)
 - [QUAST](http://quast.sourceforge.net/)
 - [BUSCO](https://busco.ezlab.org/)
 
