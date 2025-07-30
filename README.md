@@ -39,7 +39,7 @@ Make sure the following tools are installed and accessible in your `$PATH`:
 - [MLST](https://github.com/tseemann/mlst)
 - [ABRicate ](https://github.com/tseemann/abricate)
 - [abritamR ](https://github.com/MDU-PHL/abritamr)
-- 
+
 
 Additional dependencies:
 - Java (for Trimmomatic)
