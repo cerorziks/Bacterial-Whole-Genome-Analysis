@@ -1,8 +1,8 @@
 #!/bin/bash
 
 # Set the base directory where your assemblies are
-assembly_dir="/home/genomic/WGS/Shovill_assembly"
-output_dir="/home/genomic/WGS/Prokka_results"
+assembly_dir="/home/path/Shovill_assembly"
+output_dir="/home/path/Prokka_results"
 
 # Create output directory if it doesn't exist
 mkdir -p "$output_dir"
