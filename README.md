@@ -19,6 +19,9 @@ This repository contains a modular bash pipeline for processing paired-end Illum
 | Genome assembly  | Shovill       | Shovill is a pipeline which uses SPAdes at its core, but alters the steps before and after the primary assembly step to get similar results in less time |
 | Assembly QC      | QUAST & BUSCO | Evaluate assembly metrics and completeness  |
 | Annotation       | Prokka        |Prokka is a software tool to annotate bacterial, archaeal and viral genomes quickly and produce standards-compliant output files. |
+| Sequence Typing  | MLST          | Scan contig files against traditional PubMLST typing schemes |
+| AMR and Virulence Typing       | ABRicate      | Mass screening of contigs for antimicrobial resistance or virulence genes. |
+| AMR Typing       | abritamR      | abriTAMR is an AMR gene detection pipeline |
 
 ---
 
@@ -34,6 +37,9 @@ Make sure the following tools are installed and accessible in your `$PATH`:
 - [BUSCO](https://busco.ezlab.org/)
 - [Prokka](https://github.com/tseemann/prokka)
 - [MLST](https://github.com/tseemann/mlst)
+- [ABRicate ](https://github.com/tseemann/abricate)
+- [abritamR ](https://github.com/MDU-PHL/abritamr)
+- 
 
 Additional dependencies:
 - Java (for Trimmomatic)
