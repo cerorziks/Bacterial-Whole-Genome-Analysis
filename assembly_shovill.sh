@@ -1,8 +1,8 @@
 #!/bin/bash
 
 # Define input and output directories
-input_dir="/home/genomic/WGS/fastq/trimmed"
-output_dir="/home/genomic/WGS/Shovill_assembly"
+input_dir="/home/trimmed" # location of input files
+output_dir="/home/Shovill_assembly" # location of output files
 
 # Create output directory if it doesn't exist
 mkdir -p "${output_dir}"
