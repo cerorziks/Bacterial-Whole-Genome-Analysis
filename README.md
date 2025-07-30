@@ -18,6 +18,7 @@ This repository contains a modular bash pipeline for processing paired-end Illum
 | Genome assembly  | SPAdes        | Assemble trimmed reads into contigs/scaffolds (using `--isolate` mode) |
 | Genome assembly  | Shovill       | Shovill is a pipeline which uses SPAdes at its core, but alters the steps before and after the primary assembly step to get similar results in less time |
 | Assembly QC      | QUAST & BUSCO | Evaluate assembly metrics and completeness  |
+| Annotation       | Prokka        |Prokka is a software tool to annotate bacterial, archaeal and viral genomes quickly and produce standards-compliant output files. |
 
 ---
 
