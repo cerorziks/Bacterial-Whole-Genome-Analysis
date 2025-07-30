@@ -2,8 +2,8 @@
 set -euo pipefail
 
 # Directories
-ASSEMBLY_DIR="/home/genomic/WGS/Shovill_assembly"
-ABRICATE_OUTDIR="/home/genomic/WGS/ABRICATE_results"
+ASSEMBLY_DIR="/home/path/WGS/Shovill_assembly"
+ABRICATE_OUTDIR="/home/path/ABRICATE_results"
 mkdir -p "$ABRICATE_OUTDIR"
 
 # Choose ABRicate database
